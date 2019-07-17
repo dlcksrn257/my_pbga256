@@ -1,0 +1,98 @@
+\t (00:30:45) allegro 16.6 S034 (v16-6-112CQ) Windows 32
+\t (00:30:45)     Journal start - Wed Jul 17 10:11:27 2019
+\t (00:30:45)         Host=DESKTOP-0CCQGI6 User=user Pid=8300 CPUs=4
+\t (00:30:45) CmdLine= allegro.exe -p .
+\t (00:30:45) 
+\t (00:30:45) Starting new design...
+\i (00:30:45) trapsize 357
+\i (00:30:45) trapsize 357
+\i (00:30:46) package symbol wizard 
+\i (00:30:47) setwindow form.sym_wizard
+\i (00:30:47) FORM sym_wizard bga YES 
+\i (00:30:49) FORM sym_wizard wiz_next  
+\i (00:30:50) FORM sym_wizard load_template  
+\t (00:30:50) Opening existing design...
+\i (00:30:50) fillin yes 
+\t (00:30:50) Grids are drawn 200, 200 apart for enhanced viewability.
+\i (00:30:50) setwindow pcb
+\i (00:30:50) trapsize 238
+\d (00:30:50) Design opened: C:/Users/user/Desktop/vscode_orcad/cdns/cdns/share/pcb/pcb_lib/symbols/template/sym_template.dra
+\i (00:30:52) setwindow form.sym_wizard
+\i (00:30:52) FORM sym_wizard wiz_next  
+\i (00:30:54) FORM sym_wizard pack_units Millimeter 
+\i (00:30:55) FORM sym_wizard pack_units_create Millimeter 
+\i (00:30:56) FORM sym_wizard wiz_next  
+\i (00:30:58) FORM sym_wizard pin_circumference YES 
+\i (00:31:04) FORM sym_wizard bga_md 16 
+\i (00:32:42) FORM sym_wizard bga_me 20 
+\i (00:32:43) FORM sym_wizard bga_md 20 
+\i (00:33:08) FORM sym_wizard pin_circ_outer_levels 4 
+\i (00:33:13) FORM sym_wizard pin_circ_inner_levels 0 
+\i (00:33:14) FORM sym_wizard wiz_next  
+\i (00:33:26) FORM sym_wizard pin_numbering_field Number Left Letter Down 
+\i (00:33:37) FORM sym_wizard wiz_next  
+\i (00:33:41) FORM sym_wizard wiz_back  
+\i (00:33:43) FORM sym_wizard pin_numbering_field Number Right Letter Down 
+\i (00:33:51) FORM sym_wizard pin_numbering_field Number Left Letter Down 
+\i (00:33:53) FORM sym_wizard wiz_next  
+\i (00:33:58) FORM sym_wizard pga_width 27.000 
+\i (00:34:00) FORM sym_wizard pga_len 27.000 
+\i (00:34:10) FORM sym_wizard pga_ev 1.270 
+\i (00:34:12) FORM sym_wizard pga_eh 1.270 
+\i (00:34:12) FORM sym_wizard wiz_next  
+\i (00:35:12) FORM sym_wizard default_pad_browse  
+\i (00:35:22) fillin "Pbga256bin"
+\i (00:35:24) FORM sym_wizard wiz_next  
+\i (00:35:25) FORM sym_wizard wiz_next  
+\i (00:35:26) FORM sym_wizard wiz_finish  
+\w (00:35:26) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:35:26) Grids are drawn 5.080, 5.080 apart for enhanced viewability.
+\i (00:35:26) setwindow pcb
+\i (00:35:26) trapsize 6048
+\t (00:35:26) Performing DRC...
+\t (00:35:26) No DRC errors detected.
+\w (00:35:26) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:35:26) trapsize 6048
+\i (00:35:26) trapsize 854
+\i (00:35:26) trapsize 228
+\i (00:35:26) trapsize 228
+\t (00:35:26) Creating package symbol 'C:/Users/user/Desktop/vscode_orcad/workspace/my_pbga256/my_pbga256bin.psm'.
+\t (00:35:26) Starting Create symbol...
+\i (00:35:28) zoom in 1 
+\i (00:35:28) setwindow pcb
+\i (00:35:28) zoom in 6.498 -2.700
+\i (00:35:28) trapsize 114
+\i (00:35:29) zoom out 1 
+\i (00:35:29) setwindow pcb
+\i (00:35:29) zoom out 6.589 -2.677
+\i (00:35:29) trapsize 228
+\i (00:35:29) zoom out 1 
+\i (00:35:29) setwindow pcb
+\i (00:35:29) zoom out 4.449 -1.630
+\i (00:35:29) trapsize 455
+\i (00:35:30) zoom in 1 
+\i (00:35:30) setwindow pcb
+\i (00:35:30) zoom in -1.564 -0.538
+\i (00:35:30) trapsize 228
+\i (00:35:43) save_as 
+\i (00:35:47) fillin "my_pbga256bin.dra"
+\t (00:35:48) Symbol 'my_pbga256bin.psm' created.
+\i (00:36:00) setwindow form.mini
+\i (00:36:00) FORM mini subclass SILKSCREEN_TOP 
+\i (00:36:13) FORM mini subclass ASSEMBLY_BOTTOM 
+\i (00:36:15) FORM mini subclass ASSEMBLY_TOP 
+\i (00:36:33) setwindow pcb
+\i (00:36:33) new 
+\i (00:36:41) newdrawfillin "my_pbga256.dra" "Package Symbol (Wizard)"
+\t (00:36:41) Starting new design...
+\i (00:36:41) trapsize 567
+\i (00:36:41) trapsize 567
+\i (00:36:41) package symbol wizard 
+\i (00:36:42) setwindow form.sym_wizard
+\i (00:36:42) FORM sym_wizard plcc YES 
+\i (00:36:43) FORM sym_wizard bga YES 
+\i (00:36:44) FORM sym_wizard wiz_next  
+\i (00:36:45) FORM sym_wizard load_template  
+\t (00:36:45) Opening existing design...
+\i (00:36:46) fillin yes 
+\t (00:36:46) Grid
